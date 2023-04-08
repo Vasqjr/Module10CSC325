@@ -14,12 +14,19 @@ public class GarmentFamily {
     String description;
     String fabric;
 
+    /**
+     * Creates A Garment Family
+     * @param name
+     * @param description
+     * @param fabric 
+     */
     public GarmentFamily(String name, String description, String fabric) {
         this.name = name;
         this.description = description;
         this.fabric = fabric;
     }
 
+    //Getters For Name, Description, Fabric
     public String getName() {
         return name;
     }

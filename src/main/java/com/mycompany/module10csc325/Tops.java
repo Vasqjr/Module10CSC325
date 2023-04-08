@@ -13,6 +13,15 @@ public class Tops extends GarmentFamily{
     String size;
     String color;
 
+    /**
+     * Tops Constructor
+     * @param style
+     * @param size
+     * @param color
+     * @param name
+     * @param description
+     * @param fabric 
+     */
     public Tops(String style, String size, String color, String name, String description, String fabric) {
         super(name, description, fabric);
         this.style = style;
@@ -20,6 +29,7 @@ public class Tops extends GarmentFamily{
         this.color = color;
     }
 
+    //Getters For Name, Description, Fabric, Size, Style, Color
     public String getStyle() {
         return style;
     }

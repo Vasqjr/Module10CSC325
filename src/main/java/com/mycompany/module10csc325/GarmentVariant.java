@@ -15,6 +15,14 @@ public class GarmentVariant {
     Pants pants;
     Shoes shoes;
 
+    /**
+     * Variant Constructor
+     * @param name
+     * @param description
+     * @param tops
+     * @param pants
+     * @param shoes 
+     */
     public GarmentVariant(String name, String description, Tops tops, Pants pants, Shoes shoes) {
         this.name = name;
         this.description = description;
@@ -23,6 +31,7 @@ public class GarmentVariant {
         this.shoes = shoes;
     }
     
+    //Getters For Name, Description, Tops, Pants, Shoes
     public String getName() {
         return name;
     }
@@ -43,6 +52,7 @@ public class GarmentVariant {
         return shoes;
     }
 
+    //Setters For Name, Description, Tops, Pants, Shoes
     public void setName(String name) {
         this.name = name;
     }
